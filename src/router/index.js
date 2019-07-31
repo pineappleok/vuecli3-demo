@@ -8,6 +8,10 @@ const routes=[
 {
   path:"/d3",
   component:()=>import("V/d3.vue")
+}, 
+{
+  path:"/d3Rect",
+  component:()=>import("V/d3Rect.vue")
 }
 ];
 Vue.use(Router);
