@@ -4,6 +4,10 @@ const routes=[
 {
   path:"/test",
   component:()=>import("V/test.vue")
+}, 
+{
+  path:"/d3",
+  component:()=>import("V/d3.vue")
 }
 ];
 Vue.use(Router);
