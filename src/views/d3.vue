@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       data: [99, 71, 78, 25, 36, 92],
-      line: '',
+      line: ''
     };
   },
   mounted() {
@@ -34,14 +34,14 @@ export default {
         .x((d, i) => scale.x(i))
         .y(d => scale.y(d));
       this.line = path(this.data);
-    },
-  },
+    }
+  }
 };
 </script>
 <style lang="less" scoped>
 svg{
   margin: 25px;
-}  
+}
 path{
   fill: none;
   stroke: #76BF8A;

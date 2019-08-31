@@ -12,6 +12,14 @@ const routes=[
 {
   path:"/d3Rect",
   component:()=>import("V/d3Rect.vue")
+}, 
+{
+  path:"/d3Rect",
+  component:()=>import("V/d3Rect.vue")
+}, 
+{
+  path:"/orientation",
+  component:()=>import("V/orientation.vue")
 }
 ];
 Vue.use(Router);
